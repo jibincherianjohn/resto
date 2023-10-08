@@ -1,0 +1,50 @@
+React is single page application
+
+Api call in react - js
+---------------------
+ajax- fetch(where as fetch we need to convert data manually)  - async,await(it used before asyrnonchus function/apicall . it can be used only on time)  - is used First, it simplifies the syntax and makes the code more readable by avoiding callback nesting and chaining. Second, it allows for better error handling by using try/catch blocks to handle exceptions.
+
+axios-react libary (it automatically convert json type data into js-it come with in the libaray) to install axios (npm i axios)
+
+method in axios
+---------------
+post - create
+get  - acess
+put - update
+patch - partially update
+delete -remove data
+
+
+useEffect-is used to display data immedatiely,[] is used to stop repeation
+
+npm i react-router-dom  -routerdom installation
+
+
+acess url router params
+-----------------------
+
+useParams - The useParams() hook is a React Router hook that allows you to access the parameters of the current URL. This can be useful if you want to dynamically render content based on the URL parameters.  (used with path when link clicked it redirect exactly clicked items details/relveant  details )
+
+
+Destructuring - is used when key and varabile have same name
+ 
+ ----------
+  Eg
+
+  user={name:"anu",age:23,place:"kochi"}
+
+var name=user.name
+var age=user.age
+var place=user.place
+
+//single destructuring
+ var{name}=user
+ var{age}=user
+ var{place}=user
+
+//simple way
+ var{name,age,place}=user
+
+
+
+
